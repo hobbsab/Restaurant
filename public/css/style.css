@@ -1,0 +1,11 @@
+body{
+    background-color: lightblue;
+}
+.btn{
+    background-color: blue;
+    color:white;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+}
