@@ -1,3 +1,125 @@
+body {
+    margin: 60px;
+    background-image: url(https://media.istockphoto.com/id/538322880/vector/abstract-floral-pattern.jpg?s=612x612&w=0&k=20&c=c3_Y47ra4PtlullCzCnQFEhiUV6rOYVcXIu0uQHvr1Y=);
+    background-attachment: fixed;
+}
+
+.maindiv {
+    background-color: #ffffff;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Red Hat Text', sans-serif;
+}
+
 h1 {
-    color: black;
+    font-size: 40px;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+/*header and nav*/
+
+header {
+    background-color: #ffffff;
+    border-radius: 7px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#headlogo {
+    font-family: 'Carter One', system-ui;
+    color: rgb(160, 0, 53);
+    font-size: 40px;
+   /* -webkit-text-stroke: 5px rgb(0, 0, 0); */
+}
+
+header nav ul li{
+    display: inline-block;
+}
+
+li {
+    display: inline;
+}
+
+.pagesections {
+margin: 50px;
+}
+
+/*button*/
+
+.btn {
+    font-family: 'Red Hat Text', sans-serif;
+    color: #000000;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 8px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    outline-style: auto;
+    outline-width: 2px;
+    outline-color: #9b5656;
+}
+
+#submitbtn {
+    font-family: 'Red Hat Text', sans-serif;
+    color: #000000;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    outline-style: auto;
+    outline-width: 2px;
+    outline-color: #9b5656;
+}
+
+button hover {
+    background-color: #fff3ea;
+}
+button active {
+    background-color: #ffb47b;
+}
+
+/*menu cards*/
+.menucard {
+    background-color: #ffb47b;
+    color: #000000;
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Red Hat Text', sans-serif;
+    color: #ffffff;
+}
+#footergh {
+    margin-top: 10px;
+    text-align: center;
 }
