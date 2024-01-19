@@ -20,10 +20,18 @@ h1 {
 h2 {
     font-size: 30px;
 }
+.hometitle {
+    margin-bottom: 20px;
+}
 h3 {
     font-size: 20px;
 }
-
+#topimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 p {
     font-family: 'Red Hat Text', sans-serif;
 }
@@ -47,7 +55,7 @@ header {
 
 #headlogo {
     font-family: 'Carter One', system-ui;
-    color: rgb(160, 0, 53);
+    color: rgb(219, 0, 0);
     font-size: 40px;
    /* -webkit-text-stroke: 5px rgb(0, 0, 0); */
 }
@@ -94,10 +102,11 @@ margin: 50px;
     outline-color: #9b5656;
 }
 
-button hover {
+.btn hover {
     background-color: #fff3ea;
 }
-button active {
+
+.btn active {
     background-color: #ffb47b;
 }
 
@@ -109,6 +118,24 @@ button active {
     text-decoration: none;
     padding: 20px;
     border-radius: 5px;
+}
+
+.menusection {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.menupic {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#image-container {
+    max-width: 50%;
+    max-height: 50%;
 }
 
 footer {
