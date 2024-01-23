@@ -161,3 +161,22 @@ footer {
     text-align: center;
 }
 
+#submitbtn{
+    font-family: 'Red Hat Text', sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 8px;
+    background-color: #e42f2f;
+    border-radius: 5px;
+    outline-style: auto;
+    outline-width: 2px;
+    outline-color: #9b5656;
+    transition: 0.5s;
+}
+#submitbtn:hover{
+    background-color: #3e8e41;
+    color: white;
+}
+
