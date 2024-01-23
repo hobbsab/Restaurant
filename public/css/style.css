@@ -57,7 +57,6 @@ header {
     font-family: 'Carter One', system-ui;
     color: rgb(219, 0, 0);
     font-size: 40px;
-   /* -webkit-text-stroke: 5px rgb(0, 0, 0); */
 }
 
 header nav ul li{
