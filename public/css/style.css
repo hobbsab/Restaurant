@@ -85,6 +85,12 @@ margin: 50px;
     outline-style: auto;
     outline-width: 2px;
     outline-color: #9b5656;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: #3e8e41;
+    color: white;
 }
 
 #submitbtn {
