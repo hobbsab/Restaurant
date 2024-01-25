@@ -179,12 +179,14 @@
     <h2>Reservations</h2>
     <form>
     <label for="yourname">Name:</label>
-    <input type="text">
+    <input type="text" id="name" name="name" required>
     <label for="youremail">Email:</label>
-    <input type="text">
-    <label>Reservation Date</label>
-    <input type="text">
-    <button type="submit" id="submitbtn">Book</button>
+    <input type="email" id="email" name="email" required>
+    <label for="date">Reservation Date</label>
+    <input type="date" id="date" name="date" required>
+    <label for="time">Select Time:</label>
+    <input type="time" id="time" name="time" required>
+    <button type="submit" id="submitbtn" onclick="bookReservation">Book</button>
     </form>
 </section>
 </div>

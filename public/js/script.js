@@ -11,3 +11,12 @@ fetch('https://biriyani.anoram.com/get')
   .catch(error => {
     console.log('Error:', error);
   });
+
+  function bookReservation(){
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const date = document.getElementById("date").value;
+    const time = document.getElementById("time").value;
+
+    alert("Reservation submitted!\nName: " + name + "\nEmail: " + email + "\nDate: " + date + "\nTime: " + time);
+  }
