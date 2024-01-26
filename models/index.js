@@ -1,3 +1,3 @@
-const Trip = require('./Trip');
+const Reservation = require('./Reservation');
 
-module.exports = { Trip };
+module.exports = { Reservation };
