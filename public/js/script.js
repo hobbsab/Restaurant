@@ -13,24 +13,24 @@ fetch('https://biriyani.anoram.com/get')
   });
 
 
-  function bookReservation(){
-    const name = document.getElementById("name").value;
-    const email = document.getElementById("email").value;
-    const date = document.getElementById("date").value;
-    const time = document.getElementById("time").value;
+  // function bookReservation(){
+  //   const name = document.getElementById("name").value;
+  //   const email = document.getElementById("email").value;
+  //   const date = document.getElementById("date").value;
+  //   const time = document.getElementById("time").value;
 
-    alert("Reservation submitted!\nName: " + name + "\nEmail: " + email + "\nDate: " + date + "\nTime: " + time);
-  }
-  getReservations();
+  //   alert("Reservation submitted!\nName: " + name + "\nEmail: " + email + "\nDate: " + date + "\nTime: " + time);
+  // }
+  
   
   const reservationButton = document.querySelector('#submitbtn')
-  const nameInput = document.querySelector('#name-input')
-  const emailInput = document.querySelector('#email-input')
+  const nameInput = document.querySelector('#name')
+  const emailInput = document.querySelector('#email')
   const reservationList = document.querySelector('#reservation-list')
 
 
   const getReservations = async() => {
-    const response = await fetch('/api/reservations')
+    const response = await fetch('/api/reservation')
     const data = await response.json()
     for (let i = 0; i < data.length; i++){
       const newEl = document.createElement('p')
@@ -38,9 +38,9 @@ fetch('https://biriyani.anoram.com/get')
       reservationList.appendChild(newEl)
     }
 }
-
+getReservations();
   const postReservation = async(reservationObj) => {
-    const response = await fetch('/api/reservations', {
+    const response = await fetch('/api/reservation', {
         method: 'POST',
         body: JSON.stringify(reservationObj),
         headers: {
