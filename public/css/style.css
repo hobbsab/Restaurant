@@ -5,10 +5,10 @@ body {
 }
 
 .maindiv {
-    background-image: linear-gradient(109.6deg, rgba(0,0,0,0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+    background-color: #ffffff;
     border-radius: 7px;
     padding: 10px;
-    color:#ffffff;
+    color:#000000;
 }
 
 h1, h2, h3, h4 {
@@ -44,7 +44,7 @@ h2 {
 /*header and nav*/
 
 header {
-    background-image: linear-gradient(109.6deg, rgba(0,0,0,0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+    background-color: #fff;
     border-radius: 7px;
     padding: 20px;
     margin-top: 20px;
@@ -52,14 +52,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 #headlogo {
     font-family: 'Carter One', system-ui;
-    color: rgb(219, 0, 0);
+    color: #b652cd;
+    text-shadow: 2px 2px #000;
     font-size: 40px;
-    border-bottom: 4px solid red;
+    border-bottom: 4px solid #000;
     border-bottom-right-radius: 22px;
     
 }
@@ -85,17 +85,17 @@ li {
     margin-left: 5px;
     margin-right: 5px;
     padding: 8px;
-    background-color: #e42f2f;
+    background-color: #b652cd;
     border-radius: 5px;
     outline-style: auto;
     outline-width: 2px;
-    outline-color: #9b5656;
+    outline-color: #660f81;
     transition: 0.5s;
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .btn:hover{
-    background-color: #3e8e41;
+    background-color: #dc68ff;
     color: white;
 }
 
@@ -123,7 +123,7 @@ li {
 
 /*menu cards*/
 .menucard {
-    background-color: #ffb47b;
+    background-color: #dfd4c2;
     color: #000000;
     margin-top: 10px;
     text-decoration: none;
@@ -169,16 +169,16 @@ footer {
     margin-left: 5px;
     margin-right: 5px;
     padding: 8px;
-    background-color: rgb(191, 7, 7);
+    background-color: #b652cd;
     border-radius: 5px;
     outline-style: auto;
     outline-width: 2px;
-    outline-color: #9b5656;
+    outline-color: #660f81;
     transition: 0.5s;
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-#submitbtn:hover{
-    background-color: #24c429;
-    color: white;
-}
 
+#submitbtn:hover{
+        background-color: #dc68ff;
+        color: white;
+    }
