@@ -5,9 +5,10 @@ body {
 }
 
 .maindiv {
-    background-color: #ffffff;
+    background-image: linear-gradient(109.6deg, rgba(0,0,0,0.93) 11.2%, rgb(63, 61, 61) 78.9%);
     border-radius: 7px;
     padding: 10px;
+    color:#ffffff;
 }
 
 h1, h2, h3, h4 {
@@ -43,20 +44,24 @@ h2 {
 /*header and nav*/
 
 header {
-    background-color: #ffffff;
+    background-image: linear-gradient(109.6deg, rgba(0,0,0,0.93) 11.2%, rgb(63, 61, 61) 78.9%);
     border-radius: 7px;
-    padding: 10px;
-    margin-top: 30px;
+    padding: 20px;
+    margin-top: 20px;
     margin-bottom: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 #headlogo {
     font-family: 'Carter One', system-ui;
     color: rgb(219, 0, 0);
     font-size: 40px;
+    border-bottom: 4px solid red;
+    border-bottom-right-radius: 22px;
+    
 }
 
 header nav ul li{
@@ -68,23 +73,30 @@ li {
 }
 
 .pagesections {
-margin: 50px;
+    margin: 50px;
 }
 
 /*button*/
 
 .btn {
     font-family: 'Red Hat Text', sans-serif;
-    color: #000000;
+    color: white;
     text-decoration: none;
     margin-left: 5px;
     margin-right: 5px;
     padding: 8px;
-    background-color: #ffffff;
+    background-color: #e42f2f;
     border-radius: 5px;
     outline-style: auto;
     outline-width: 2px;
     outline-color: #9b5656;
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.btn:hover{
+    background-color: #3e8e41;
+    color: white;
 }
 
 #submitbtn {
@@ -149,3 +161,24 @@ footer {
     margin-top: 10px;
     text-align: center;
 }
+
+#submitbtn{
+    font-family: 'Red Hat Text', sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 8px;
+    background-color: rgb(191, 7, 7);
+    border-radius: 5px;
+    outline-style: auto;
+    outline-width: 2px;
+    outline-color: #9b5656;
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#submitbtn:hover{
+    background-color: #24c429;
+    color: white;
+}
+
