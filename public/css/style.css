@@ -1,14 +1,7 @@
 body {
-    margin: 60px;
     background-image: url(https://media.istockphoto.com/id/538322880/vector/abstract-floral-pattern.jpg?s=612x612&w=0&k=20&c=c3_Y47ra4PtlullCzCnQFEhiUV6rOYVcXIu0uQHvr1Y=);
     background-attachment: fixed;
-}
-
-.maindiv {
-    background-color: #ffffff;
-    border-radius: 7px;
-    padding: 10px;
-    color:#000000;
+    color: #fff;
 }
 
 h1, h2, h3, h4 {
@@ -33,6 +26,12 @@ h3 {
     margin-right: auto;
     width: 50%;
 }
+
+#toparea {
+    margin-top: 80px;
+    text-align: center;
+}
+
 p {
     font-family: 'Red Hat Text', sans-serif;
 }
@@ -45,9 +44,7 @@ h2 {
 
 header {
     background-color: #fff;
-    border-radius: 7px;
     padding: 20px;
-    margin-top: 20px;
     margin-bottom: 30px;
     display: flex;
     align-items: center;
@@ -59,9 +56,6 @@ header {
     color: #b652cd;
     text-shadow: 2px 2px #000;
     font-size: 40px;
-    border-bottom: 4px solid #000;
-    border-bottom-right-radius: 22px;
-    
 }
 
 header nav ul li{
@@ -70,78 +64,65 @@ header nav ul li{
 
 li {
     display: inline;
+    list-style: none;
 }
 
 .pagesections {
-    margin: 50px;
+    padding: 15px;
 }
 
-/*button*/
-
-.btn {
-    font-family: 'Red Hat Text', sans-serif;
-    color: white;
-    text-decoration: none;
-    margin-left: 5px;
-    margin-right: 5px;
-    padding: 8px;
-    background-color: #b652cd;
-    border-radius: 5px;
-    outline-style: auto;
-    outline-width: 2px;
-    outline-color: #660f81;
-    transition: 0.5s;
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-}
-
-.btn:hover{
-    background-color: #dc68ff;
-    color: white;
-}
-
-#submitbtn {
-    font-family: 'Red Hat Text', sans-serif;
-    color: #000000;
-    text-decoration: none;
-    margin-left: 5px;
-    margin-right: 5px;
-    padding: 5px;
-    background-color: #ffffff;
-    border-radius: 5px;
-    outline-style: auto;
-    outline-width: 2px;
-    outline-color: #9b5656;
-}
-
-.btn hover {
-    background-color: #fff3ea;
-}
-
-.btn active {
-    background-color: #ffb47b;
+section {
+    background-color: #fff;
+    color: #000;
 }
 
 /*menu cards*/
-.menucard {
-    background-color: #dfd4c2;
-    color: #000000;
-    margin-top: 10px;
-    text-decoration: none;
-    padding: 20px;
-    border-radius: 5px;
+.menu {
+    font-family: sans-serif;
+    font-size: 14px;
+  }
+  
+  .menu-groupname {
+    margin: 0;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .menu-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+    padding: 1.5em 0;
+  }
+  
+  .menu-item {
+    display: flex;
+  }
+
+  .menu-pic {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-right: 1.5em;
+  }
+  
+  .menu-item-text {
+    flex-grow: 1;
+  }
+
+  .menu-item-heading {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
 }
 
-.menusection {
-    margin-top: 30px;
-    text-align: center;
+.menu-item-name {
+  margin-right: 1.5em;
 }
 
-.menupic {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.menu-item-desc {
+  line-height: 1.6;
 }
 
 #image-container {
@@ -162,23 +143,86 @@ footer {
     text-align: center;
 }
 
-#submitbtn{
-    font-family: 'Red Hat Text', sans-serif;
-    color: white;
-    text-decoration: none;
-    margin-left: 5px;
-    margin-right: 5px;
-    padding: 8px;
-    background-color: #b652cd;
-    border-radius: 5px;
-    outline-style: auto;
-    outline-width: 2px;
-    outline-color: #660f81;
-    transition: 0.5s;
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+.hamburger {
+    display: none;
 }
 
-#submitbtn:hover{
-        background-color: #dc68ff;
-        color: white;
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
     }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 1rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+}
+
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 5rem;
+}
+
+.nav-link{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #475569;
+}
+
+.nav-link:hover{
+    color: #482ff7;
+}
+
+.nav-logo {
+    font-size: 2.1rem;
+    font-weight: 500;
+    color: #482ff7;
+}

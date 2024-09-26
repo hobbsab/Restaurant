@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,194 +11,348 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Red+Hat+Text&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js/script.js" defer></script>
     <title>Taj Mahal Indian Restaurant</title>
 </head>
+
 <body>
-<header>
-    <h1 id="headlogo">Taj Mahal</h1>
-    <nav>
-        <u1>
-            <li>
-                <a class="btn" href="#about"> About</a>
-            </li>
-            <li>
-                <a class="btn" href="#menu"> Menu</a>
-            </li>
-            <li>
-                <a class="btn" href="#reserve"> Reservations</a>
-            </li>
-        </u1>
-    </nav>
-</header>
+    <header>
+        <h1 id="headlogo">Taj Mahal</h1>
 
-<div class="maindiv">
+        <nav class="navbar">
+            <u1 class="nav-menu">
+                <li>
+                    <a class="nav-item btn btn-danger mx-auto ms-2" href="#toparea"> Home</a>
+                </li>
+                <li>
+                    <a class="nav-item btn btn-danger mx-auto ms-2" href="#menu"> Menu</a>
+                </li>
+                <li>
+                    <a class="nav-item btn btn-danger mx-auto ms-2" href="#reserve"> Reservations</a>
+                </li>
+            </u1>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
 
-<section class="pagesections" id="toparea">
-    <article id="toptext">
-        <h2 class="hometitle">Taj Mahal Indian Restaurant</h1>
-        <p class="ptext">Best Indian food in the city</p>
-    </article>
-</section>
+    <section class="pagesections" id="toparea">
+        <article id="toptext">
+            <h2 class="hometitle">Taj Mahal Indian Restaurant</h1>
+                <p>Since 2000, we've specialized in delicious and all-vegetarian Indian fare that will make you come
+                    back again!</p>
 
-<div class="pagesections" id="image-container"></div>
+                <h2>Menu</h2>
+                <p>Spice levels of any dish can be requested during ordering.<br>
+                    🌶️ Mild <br>
+                    🌶️🌶️ Medium <br>
+                    🌶️🌶️🌶️ Hot
+                </p>
 
-<section class="pagesections">
-    <h2 class="hometitle">About Us</h2>
-    <p>This restaurant was built in 1988 and we are very well known. At our restaurant, we serve you the most famous Indian cuisine that you could possibly enjoy.</p>
-</section>
+            </section>
+            <section class="menu">
+                <main class="container">
+                    <div class="menu-card">
+                        <h2 class="menu-groupname">Appetizers</h2>
+                        <div class="menu-group">
+                            <div class="menu-item">
+                                <img src="https://t4.ftcdn.net/jpg/00/36/34/11/360_F_36341179_4r4bfHIvjgrO0zdButP9ibtL2Hckz7gt.jpg"
+                                    alt="Papadam" class="menu-pic" />
+                                <div class="menu-item-text">
+                                    <h3 class="menu-item-heading">
+                                        <span class="menu-item-name">Papadam</span>
+                                        <span class="menu-item-price">$5.90</span>
+                                    </h3>
+                                    <p class="menu-item-desc">
+                                        Lentil crackers served with chutney.
+                                    </p>
+                                </div>
+                            </div>
 
-<section class="pagesections" id="menu">
-    <h1>Menu</h1>
-    <h2 class="menusection">Appetizers</h2>
+                            <div class="menu-item">
+                                <img src="https://pataksusa.com/wp-content/uploads/2023/09/homemade-vegetable-samosas.jpg"
+                                    alt="Vegetable Samosas" class="menu-pic" />
+                                <div class="menu-item-text">
+                                    <h3 class="menu-item-heading">
+                                        <span class="menu-item-name">Vegetable Samosas</span>
+                                        <span class="menu-item-price">$5.90</span>
+                                    </h3>
+                                    <p class="menu-item-desc">
+                                        Fried and spiced potato and pea pastries served with chutney.
+                                    </p>
+                                </div>
+                            </div>
 
-    <img width="175" class="menupic" src="https://t4.ftcdn.net/jpg/00/36/34/11/360_F_36341179_4r4bfHIvjgrO0zdButP9ibtL2Hckz7gt.jpg" alt=Papadam>
-   
-    <div class="menucard" id="papadam">
-        <img width="100" src="https://t4.ftcdn.net/jpg/00/36/34/11/360_F_36341179_4r4bfHIvjgrO0zdButP9ibtL2Hckz7gt.jpg" alt=>
-        <h3 class="menutitle">Papadam</h3>
-        <p class="menuitem">Lentil crackers served with chutney</p>
-    </div>
+                            <div class="menu-item">
+                                <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2022/02/vegetable-pakora-recipe.jpg"
+                                    alt="Vegetable Pakoras" class="menu-pic" />
+                                <div class="menu-item-text">
+                                    <h3 class="menu-item-heading">
+                                        <span class="menu-item-name">Vegetable Pakoras</span>
+                                        <span class="menu-item-price">$5.90</span>
+                                    </h3>
+                                    <p class="menu-item-desc">
+                                        Fried vegetable pieces
+                                    </p>
+                                </div>
+                            </div>
 
-    <div class="menucard" id="samosas">
-        <img width="100" src="https://pataksusa.com/wp-content/uploads/2023/09/homemade-vegetable-samosas.jpg" alt="samosas">
-        <h3 class="menutitle">Vegetable Samosas</h3>
-        <p class="menuitem">Fried and spiced potato and pea pastries served with chutney.</p>
-    </div>
-    
-    <div class="menucard" id="samosas">
-        <img width="100" src="https://www.indianhealthyrecipes.com/wp-content/uploads/2022/02/vegetable-pakora-recipe.jpg" alt="pakoras">
-        <h3 class="menutitle">Vegetable Pakoras</h3>
-        <p class="menuitem">Fried vegetable pieces</p>
-    </div>
+                            <div class="menu-item">
+                                <img src="https://ministryofcurry.com/wp-content/uploads/2022/07/Papdi-Chat_-3.jpg"
+                                    alt="Chaat Papdi" class="menu-pic" />
+                                <div class="menu-item-text">
+                                    <h3 class="menu-item-heading">
+                                        <span class="menu-item-name">Chaat Papdi</span>
+                                        <span class="menu-item-price">$5.90</span>
+                                    </h3>
+                                    <p class="menu-item-desc">
+                                        Flour chips with potatoes with chutney
+                                    </p>
+                                </div>
+                            </div>
 
-    <div class="menucard" id="dalm">
-        <img width="100" src="https://ministryofcurry.com/wp-content/uploads/2022/07/Papdi-Chat_-3.jpg" alt="papdi">
-        <h3 class="menutitle">Chaat Papdi</h3>
-        <p class="menuitem">Flour chips with potatoes with chutney</p>
-    </div>
+                            <div class="menu-card">
+                                <h2 class="menu-groupname">Entrees</h2>
+                                <div class="menu-group">
+                                    <div class="menu-item">
+                                        <img src="https://cdn77-s3.lazycatkitchen.com/wp-content/uploads/2020/01/easy-chana-masala-pan-1024x1536.jpg"
+                                            alt="Papadam" class="menu-pic" />
+                                        <div class="menu-item-text">
+                                            <h3 class="menu-item-heading">
+                                                <span class="menu-item-name">Chana Masala</span>
+                                                <span class="menu-item-price">$5.90</span>
+                                            </h3>
+                                            <p class="menu-item-desc">
+                                                Chickpeas in a tomato-based curry sauce.
+                                            </p>
+                                        </div>
+                                    </div>
 
-    <h2 class="menusection">Entrees</h2>
+                                    <div class="menu-item">
+                                        <img src="https://www.funfoodfrolic.com/wp-content/uploads/2023/04/Dal-Makhani-Blog.jpg"
+                                            alt="Dal Makhani" class="menu-pic" />
+                                        <div class="menu-item-text">
+                                            <h3 class="menu-item-heading">
+                                                <span class="menu-item-name">Dal Makhani</span>
+                                                <span class="menu-item-price">$5.90</span>
+                                            </h3>
+                                            <p class="menu-item-desc">
+                                                Lentil dish with chopped coriander leaves and cream. Served with rice.
+                                            </p>
+                                        </div>
+                                    </div>
 
-    <img width="230" class="menupic" src="https://www.shutterstock.com/image-photo/dal-makhani-indian-black-lentil-600nw-2240392383.jpg" alt="Dal Makhani">
-    <div class="menucard" id="chana">
-        <img width="100" src="https://cdn77-s3.lazycatkitchen.com/wp-content/uploads/2020/01/easy-chana-masala-pan-1024x1536.jpg" alt="chana masala img">
-        <h3 class="menutitle">Chana Masala</h3>
-        <p class="menuitem">Chickpeas in a tomato-based curry sauce.</p>
-    </div>
+                                    <div class="menu-item">
+                                        <img src="https://www.licious.in/blog/wp-content/uploads/2020/12/Hyderabadi-chicken-Biryani.jpg"
+                                            alt="Vegetable Biryani" class="menu-pic" />
+                                        <div class="menu-item-text">
+                                            <h3 class="menu-item-heading">
+                                                <span class="menu-item-name">Vegetable Biryani</span>
+                                                <span class="menu-item-price">$5.90</span>
+                                            </h3>
+                                            <p class="menu-item-desc">
+                                                Steamed vegetables layered between rice.
+                                            </p>
+                                        </div>
+                                    </div>
 
-    <div class="menucard" id="vbiryani">
-        <img width="100" src="https://www.licious.in/blog/wp-content/uploads/2020/12/Hyderabadi-chicken-Biryani.jpg" alt="Hyderabadi-chicken-Biryani">
-        <h3 class="menutitle">Vegetable Biryani</h3>
-        <p class="menuitem">Steamed vegetables layered between rice.</p>
-    </div>
-    
-    <div class="menucard" id="bchicken">
-        <img width="100" src="https://www.contentednesscooking.com/wp-content/uploads/2022/03/Butter-Chicken-8.jpg.webp" alt="Butter chicken">
-        <h3 class="menutitle">Butter Chicken</h3>
-        <p class="menuitem">Chicken with a spiced tomato and butter sauce.</p>
-    </div>
+                                    <div class="menu-item">
+                                        <img src="https://www.veganricha.com/wp-content/uploads/2017/05/vegan-tofu-butter-masala-veganricha-0744.jpg"
+                                            alt="Butter Tofu" class="menu-pic" />
+                                        <div class="menu-item-text">
+                                            <h3 class="menu-item-heading">
+                                                <span class="menu-item-name">Butter Tofu</span>
+                                                <span class="menu-item-price">$5.90</span>
+                                            </h3>
+                                            <p class="menu-item-desc">
+                                                A vegetarian spin on classic butter chicken, made with tofu in a spiced
+                                                tomato and butter sauce.
+                                            </p>
+                                        </div>
+                                    </div>
 
-    <div class="menucard" id="kofta">
-        <img width="100" src="https://www.thecuriouschickpea.com/wp-content/uploads/2018/03/malaikofta-4-720x720.jpg" alt="Malai Kofta">
-        <h3 class="menutitle">Malai Kofta</h3>
-        <p class="menuitem">Vegetable balls in a creamy butter sauce.</p>
-    </div>
-    
+                                    <div class="menu-item">
+                                        <img src="https://www.thecuriouschickpea.com/wp-content/uploads/2018/03/malaikofta-4-720x720.jpg"
+                                            alt="Malai Kofta" class="menu-pic" />
+                                        <div class="menu-item-text">
+                                            <h3 class="menu-item-heading">
+                                                <span class="menu-item-name">Malai Kofta</span>
+                                                <span class="menu-item-price">$5.90</span>
+                                            </h3>
+                                            <p class="menu-item-desc">
+                                                Vegetable and potato balls in a creamy butter sauce.
+                                            </p>
+                                        </div>
+                                    </div>
 
-    <div class="menucard" id="palak">
-        <img width="100" src="https://www.cookrepublic.com/wp-content/uploads/2021/07/vibrant-green-palak-paneer02.jpg" alt="palak Paneer img">
-        <h3 class="menutitle">Palak Paneer</h3>
-        <p class="menuitem">Curry with soft cubes of cheese simmered in a mildly spiced spinach gravy.</p>
-    </div>
+                                    <div class="menu-item">
+                                        <img src="https://www.cookrepublic.com/wp-content/uploads/2021/07/vibrant-green-palak-paneer02.jpg"
+                                            alt="Palak Paneer" class="menu-pic" />
+                                        <div class="menu-item-text">
+                                            <h3 class="menu-item-heading">
+                                                <span class="menu-item-name">Palak Paneer</span>
+                                                <span class="menu-item-price">$5.90</span>
+                                            </h3>
+                                            <p class="menu-item-desc">
+                                                Curry with soft cubes of cheese simmered in a mildly spiced spinach
+                                                gravy.
+                                            </p>
+                                        </div>
+                                    </div>
 
-    <div class="menucard" id="dosa">
-        <img width="100" src="https://www.indianhealthyrecipes.com/wp-content/uploads/2021/09/dosa-recipe.jpg.webp" alt="Dosa-img">
-        <h3 class="menutitle">Dosa</h3>
-        <p class="menuitem">Indian pancakes made from rice, lentils and chili. Served with potato curry, chutney and sambar.</p>
-    </div>
+                                    <div class="menu-item">
+                                        <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2021/09/dosa-recipe.jpg.webp"
+                                            alt="Dosa" class="menu-pic" />
+                                        <div class="menu-item-text">
+                                            <h3 class="menu-item-heading">
+                                                <span class="menu-item-name">Dosa</span>
+                                                <span class="menu-item-price">$5.90</span>
+                                            </h3>
+                                            <p class="menu-item-desc">
+                                                Indian pancakes made from rice, lentils and chili. Served with potato
+                                                curry,
+                                                chutney and sambar.
+                                            </p>
+                                        </div>
+                                    </div>
 
-    <div class="menucard" id="dalm">
-        <img width="100" src="https://www.funfoodfrolic.com/wp-content/uploads/2023/04/Dal-Makhani-Blog.jpg" alt="dal makhani img">
-        <h3 class="menutitle">Dal Makhani</h3>
-        <p class="menuitem">Lentil dish with chopped coriander leaves and cream. Served with rice.</p>
-    </div>
+                                    <div class="menu-item">
+                                        <img src="https://eatwithclarity.com/wp-content/uploads/2020/06/vegan-tikka-masala-8.jpg"
+                                            alt="Chickpea Tikka Masala" class="menu-pic" />
+                                        <div class="menu-item-text">
+                                            <h3 class="menu-item-heading">
+                                                <span class="menu-item-name">Chickpea Tikka Masala</span>
+                                                <span class="menu-item-price">$5.90</span>
+                                            </h3>
+                                            <p class="menu-item-desc">
+                                                Chickpeas in a flavorful cream tomato curry sauce.
+                                            </p>
+                                        </div>
+                                    </div>
 
-    <div class="menucard" id="bchicken">
-        <img width="100" src="https://i0.wp.com/www.nourishdeliciously.com/wp-content/uploads/2022/11/DSC_9207.jpg" alt="chicken tikka masala">
-        <h3 class="menutitle">Chicken Tikka Masala</h3>
-        <p class="menuitem">Chicken in a flavorful cream tomato curry sauce.</p>
-    </div>
+                                    <div class="menu-item">
+                                        <img src="https://veganhuggs.com/wp-content/uploads/2021/04/aloo-gobi-in-bowl-side-view.jpg"
+                                            alt="Aloo Gobi" class="menu-pic" />
+                                        <div class="menu-item-text">
+                                            <h3 class="menu-item-heading">
+                                                <span class="menu-item-name">Aloo Gobi</span>
+                                                <span class="menu-item-price">$5.90</span>
+                                            </h3>
+                                            <p class="menu-item-desc">
+                                                Cauliflower and potato dish with spices. Served with rice.
+                                            </p>
+                                        </div>
+                                    </div>
 
-    <div class="menucard" id="aloogobi">
-        <img width="100" src="https://veganhuggs.com/wp-content/uploads/2021/04/aloo-gobi-in-bowl-side-view.jpg" alt="aloo gobi">
-        <h3 class="menutitle">Aloo Gobi</h3>
-        <p class="menuitem">Cauliflower and potato dish with spices. Served with rice.</p>
-    </div>
+                                    <div class="menu-card">
+                                        <h2 class="menu-groupname">Sides</h2>
+                                        <div class="menu-group">
+                                            <div class="menu-item">
+                                                <img src="https://crispyjustbaked.com/wp-content/uploads/2020/11/Naan-scaled.jpg"
+                                                    alt="Garlic Naan" class="menu-pic" />
+                                                <div class="menu-item-text">
+                                                    <h3 class="menu-item-heading">
+                                                        <span class="menu-item-name">Garlic Naan</span>
+                                                        <span class="menu-item-price">$5.90</span>
+                                                    </h3>
+                                                    <p class="menu-item-desc">
+                                                        CRound tandoori bread topped with garlic.
+                                                    </p>
+                                                </div>
+                                            </div>
 
-    <h2 class="menusection">Sides</h2>
-    <img width="130" class="menupic" src="https://crispyjustbaked.com/wp-content/uploads/2020/11/Naan-scaled.jpg" alt=Naan>
-    <div class="menucard" id="naan">
-        <img width="100" src="https://crispyjustbaked.com/wp-content/uploads/2020/11/Naan-scaled.jpg" alt=naangi>
-        <h3 class="menutitle">Garlic Naan</h3>
-        <p class="menuitem">Round tandoori bread topped with garlic.</p>
-    </div>
+                                            <div class="menu-item">
+                                                <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/poori-puri-recipe.jpg"
+                                                    alt="Puri" class="menu-pic" />
+                                                <div class="menu-item-text">
+                                                    <h3 class="menu-item-heading">
+                                                        <span class="menu-item-name">Puri</span>
+                                                        <span class="menu-item-price">$5.90</span>
+                                                    </h3>
+                                                    <p class="menu-item-desc">
+                                                        A puffy Indian bread
+                                                    </p>
+                                                </div>
+                                            </div>
 
-    <div class="menucard" id="puri">
-        <img width="100" src="https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/poori-puri-recipe.jpg" alt=puri>
-        <h3 class="menutitle">Puri</h3>
-        <p class="menuitem">A puffy Indian bread</p>
-    </div>
+                                            <div class="menu-card">
+                                                <h2 class="menu-groupname">Drinks</h2>
+                                                <div class="menu-group">
+                                                    <div class="menu-item">
+                                                        <img src="https://img.freepik.com/premium-photo/fresh-smoothie-mango-lassi-with-mango-fruit-isolated-white-background-studio-shot_741910-7141.jpg"
+                                                            alt="Mango Lassi" class="menu-pic" />
+                                                        <div class="menu-item-text">
+                                                            <h3 class="menu-item-heading">
+                                                                <span class="menu-item-name">Mango Lassi</span>
+                                                                <span class="menu-item-price">$5.90</span>
+                                                            </h3>
+                                                        </div>
+                                                    </div>
 
-    <h2 class="menusection">Drinks</h2>
-    <img width="120" class="menupic" src="https://img.freepik.com/premium-photo/fresh-smoothie-mango-lassi-with-mango-fruit-isolated-white-background-studio-shot_741910-7141.jpg" alt=Mango Lassi>
-    <div class="menucard" id="water">
-        <h3 class="menutitle">Water</h3>
-        <p class="menuitem">--</p>
-    </div>
+                                                    <div class="menu-item">
+                                                        <img src="https://www.eatingwell.com/thmb/qtP5zJfjZjS_6lkAGjOoH2XDNEc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/mineral-water-8cc11cec12c7471bac9378fa9757c83f.jpg"
+                                                            alt="Water" class="menu-pic" />
+                                                        <div class="menu-item-text">
+                                                            <h3 class="menu-item-heading">
+                                                                <span class="menu-item-name">Water</span>
+                                                                <span class="menu-item-price">$5.90</span>
+                                                            </h3>
+                                                        </div>
+                                                    </div>
 
-    <div class="menucard" id="soda">
-        <h3 class="menutitle">Soda</h3>
-        <p class="menuitem">--</p>
-    </div>
+                                                    <div class="menu-item">
+                                                        <img src="https://131610149.cdn6.editmysite.com/uploads/1/3/1/6/131610149/s346694948735380391_p59_i1_w1000.jpeg"
+                                                            alt="Soda" class="menu-pic" />
+                                                        <div class="menu-item-text">
+                                                            <h3 class="menu-item-heading">
+                                                                <span class="menu-item-name">Soda</span>
+                                                                <span class="menu-item-price">$5.90</span>
+                                                            </h3>
+                                                        </div>
+                                                    </div>
 
-    <div class="menucard" id="lassi">
-        <h3 class="menutitle">Mango Lassi</h3>
-        <p class="menuitem">A yogurt-based drink that is sweet or salty and often flavored with fruits or spices.</p>
-    </div>
+                                                    <div class="menu-item">
+                                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Masala_Chai.JPG/640px-Masala_Chai.JPG"
+                                                            alt="Chai" class="menu-pic" />
+                                                        <div class="menu-item-text">
+                                                            <h3 class="menu-item-heading">
+                                                                <span class="menu-item-name">Chai</span>
+                                                                <span class="menu-item-price">$5.90</span>
+                                                            </h3>
+                                                        </div>
+                                                    </div>
 
-    <div class="menucard" id="chai">
-        <h3 class="menutitle">Chai</h3>
-        <p class="menuitem">A tea made with milk, sugar, and spices such as cardmamom, ginger, and cinnamon.</p>
-    </div>
-    
-</section>
+    </section>
 
-<section class="pagesections" id="reserve">
-    <h2>Reservations</h2>
-    <form>
-    <label for="yourname">Name:</label>
-    <input type="text" id="name" name="name" required>
-    <label for="youremail">Email:</label>
-    <input type="email" id="email" name="email" required>
-    <label for="date">Reservation Date</label>
-    <input type="date" id="date" name="date" required>
-    <label for="time">Select Time:</label>
-    <input type="time" id="time" name="time" required>
-    <button type="submit" id="submitbtn" onclick="bookReservation">Book</button>
+    <section class="pagesections" id="reserve">
+        <h2>Reservations</h2>
+        <form>
+            <label for="yourname">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="youremail">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="date">Reservation Date</label>
+            <input type="date" id="date" name="date" required>
+            <label for="time">Select Time:</label>
+            <input type="time" id="time" name="time" required>
+            <button type="submit" id="submitbtn" class= "btn btn-danger" onclick="bookReservation">Book</button>
 
-    </form>
-    <div id="reservation-list"></div>
-</section>
-</div>
+        </form>
+        <div id="reservation-list"></div>
+    </section>
 
-<footer>(c) 2024 Anna Hobbs
-<br>
-<a href="https://github.com/hobbsab">
-    <img id=footergh src="./css/github-mark-white.png" alt="github" style="width:45px;">
-  </a>
-</footer>
+    <footer>(c) 2024 Anna Hobbs
+        <br>
+        <a href="https://github.com/hobbsab">
+            <img id=footergh src="./css/github-mark-white.png" alt="github" style="width:45px;">
+        </a>
+    </footer>
 </body>
+
 </html>

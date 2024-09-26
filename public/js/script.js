@@ -12,15 +12,16 @@ fetch('https://biriyani.anoram.com/get')
     console.log('Error:', error);
   });
 
+// responsive menu
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
 
-  // function bookReservation(){
-  //   const name = document.getElementById("name").value;
-  //   const email = document.getElementById("email").value;
-  //   const date = document.getElementById("date").value;
-  //   const time = document.getElementById("time").value;
+hamburger.addEventListener("click", mobileMenu);
 
-  //   alert("Reservation submitted!\nName: " + name + "\nEmail: " + email + "\nDate: " + date + "\nTime: " + time);
-  // }
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
   
   
   const reservationButton = document.querySelector('#submitbtn')
@@ -66,4 +67,6 @@ getReservations();
   }
 
   reservationButton.addEventListener('click', bookReservation)
+
+
 
